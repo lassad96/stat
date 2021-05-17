@@ -18,7 +18,7 @@ class App extends Component {
   };
 componentDidMount(){
   this.timer = setInterval(()=>{
-    this.setState({seconds: this.state.seconds + 1});}, 100);
+    this.setState({seconds: this.state.seconds + 1});}, 1000);
   }
 
   componentWillUnmount(){
